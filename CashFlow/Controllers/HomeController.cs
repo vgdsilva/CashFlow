@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using CashFlow.WebApp.Models;
+using CashFlow.WebApp.Sitecore.Data;
 
 namespace CashFlow.WebApp.Controllers;
 
@@ -15,6 +16,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        
+        
         return View();
     }
 
