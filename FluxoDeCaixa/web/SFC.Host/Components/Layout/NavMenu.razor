@@ -1,0 +1,70 @@
+﻿<div class="top-row ps-3 navbar navbar-dark" style="border-right: #EFEFF1 3px solid">
+    <div class="container-fluid">
+        <img src="images/Logo.png" class="navbar-brand" style="width: 100%" />
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler"/>
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()" style="border-right: #EFEFF1 3px solid">
+    <nav class="flex-column">
+        <div class="nav-item px-3 container-fluid">
+            <a class="navbar-brand" style="font-weight: bold; color: #89898C">Geral</a>
+        </div>
+        
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <i class="bi fa-solid fa-display"></i> Dashboard
+            </NavLink>
+        </div>
+
+        @* <div class="nav-item px-3"> *@
+        @*     <NavLink class="nav-link" href="weather"> *@
+        @*         <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Despesas *@
+        @*     </NavLink> *@
+        @* </div> *@
+        @* *@
+        @* <div class="nav-item px-3"> *@
+        @*     <NavLink class="nav-link" href="weather"> *@
+        @*         <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Pagamentos *@
+        @*     </NavLink> *@
+        @* </div> *@
+    </nav>
+
+    <nav class="flex-column">
+        <div class="nav-item px-3 container-fluid">
+            <a class="navbar-brand" style="font-weight: bold; color: #89898C">Pessoal</a>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="wallet">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Carteira
+            </NavLink>
+        </div>
+
+        @* <div class="nav-item px-3"> *@
+        @*     <NavLink class="nav-link" href="counter"> *@
+        @*         <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Mensagens *@
+        @*     </NavLink> *@
+        @* </div> *@
+
+        @* <div class="nav-item px-3"> *@
+        @*     <NavLink class="nav-link" href="counter"> *@
+        @*         <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Notificações *@
+        @*     </NavLink> *@
+        @* </div> *@
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Configurações
+            </NavLink>
+        </div>
+    </nav>
+
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi" aria-hidden="true"></span> Sair
+            </NavLink>
+        </div>
+    </nav>
+</div>

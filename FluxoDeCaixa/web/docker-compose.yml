@@ -1,6 +1,0 @@
-﻿services:
-  fluxodecaixa:
-    image: fluxodecaixa
-    build:
-      context: .
-      dockerfile: Dockerfile
